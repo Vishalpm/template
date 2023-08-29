@@ -106,7 +106,7 @@
 
 .hero {
     height: 600px;
-    background-image: url("/images/heroimg.png");
+    background-image: url("./images/heroimg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--black);
