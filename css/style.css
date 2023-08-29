@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --white : white;
+    --black : black;
+    --gray : gray;
+}
+
+
+.a-tag{
+    padding: 3px 5px 3px 5px;
+    text-decoration: none;
+    color: gray;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    color: var(--white);
+}
+
+.header{
+    background-color: var(--black);
+}
+
+.tophead{
+    display: flex;
+    justify-content: space-between;
+    color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tophead a{
+    color: var(--gray);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tophead-left, .tophead-right{
+    display: flex;
+    gap: 20px;
+}
+
+.mid-nav{
+    font-weight: 200;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.mid-nav span{
+    font-size: 40px;
+    line-height: 60x;
+}
+
+.itemlist{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+.sub-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.product-btn{
+    position: relative;
+}
+
+.sub-products {
+    display: none;
+    position: absolute;
+    top: 24px;
+    left: -1px;
+    color: var(--gray);
+    width: 97px;
+    padding-left: 5px;
+    border: 1px solid var(--gray);
+}
+
+.sub-products p{
+    font-family: Work Sans;
+    font-weight: 400;
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.product-btn:hover .sub-products{
+    display: block;
+}
+.product-btn:hover{
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+
+.hero {
+    height: 600px;
+    background-image: url("/images/heroimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--black);
+  }
+
+.sub-hero{
+    position: relative;
+}
+
+
+.num-2022{
+    font-family: Syne !important;
+    font-weight: 800;
+    position: absolute;
+    top: 267px;
+    left: 260px;
+    width: 450px;
+    height: 100px;
+}
+
+.fresh{
+    font-family: Syne !important;
+    font-weight: 800;
+    position: absolute;
+    font-size: 145px;
+    top: 100px;
+    left: 150px;
+}
+
+.look {
+    font-family: Syne !important;
+    font-weight: 800;
+    position: absolute;
+    top: 342px;
+    left: 174px;
+    font-size: 141px;
+}
+
+.new-products{
+    font-family: Syne !important;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.new-products hr{
+    width: 361px;
+}
+
+.products-card{
+    display: flex;
+    color: black;
+    gap: 10px;
+}
+
+.text-tag{
+    font-family: Work Sans;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    width: 25%;
+}
+
+.card img{
+   width: 200px;
+}
+
+.description p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.get-in-touch{
+    margin-top: 20px;
+    background-color: rgb(116, 116, 116);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+    height: 400px;
+}
+
+.get-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px !important;
+    gap: 30px;
+}
+
+.user-input input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(200, 196, 196);
+    color: white;
+    background-color: rgb(116, 116, 116);
+}
+
+.gettext span{
+    font-family: Syne;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 79px;
+}
+
+.newlatter{
+    width: 30%;
+    color: rgb(237, 237, 237);;
+}
+
+.copyright{
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.copyright span{
+    color: rgb(212, 212, 212);
+    font-size: 12px;
+}
+
